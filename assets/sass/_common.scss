@@ -1,0 +1,304 @@
+body {
+    font-family: $primary-font;
+}
+p {
+    font-family: $body-font;
+}
+/* =========== Top Bar Section Css Start =========== */
+#top_bar {
+    background-color: $dark-hover;
+    color: $light;
+    padding: 11px 0;
+}
+#top_bar .left i,
+#top_bar .left p span:last-child {
+    color: $primary-color-light;
+}
+#top_bar .right ul:first-child li {
+    border-right: 1px solid #8c8c8c;
+    padding: 0 20px;
+}
+#top_bar .right ul:first-child li a {
+    font-family: $body-font;
+    color: $light;
+    font-size: 16px;
+    line-height: 28px;
+    transition: 0.4s;
+}
+#top_bar .right ul:first-child li select {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: $light;
+}
+#top_bar .right ul:first-child li select option {
+    background-color: $dark-hover;
+    padding: 5px 10px;
+}
+#top_bar .right ul:first-child li select:focus {
+    outline: 0;
+}
+#top_bar .right ul:last-child li a {
+    color: $light;
+    padding: 0 5px;
+    font-size: 20px;
+    transition: 0.4s;
+}
+#top_bar .right ul:last-child li a:hover,
+#top_bar .right ul:first-child li a:hover {
+    color: $primary-color-light;
+}
+/* =========== Top Bar Section Css End =========== */
+
+/* =========== Nav Bar Section Css Start =========== */
+#primary_nav #primary_menu ul:first-child li a {
+    font-size: 16px;
+    line-height: 26px;
+    color: $text-color;
+    text-transform: capitalize;
+    padding: 37px 14px;
+    transition: 0.4s;
+}
+#primary_nav #primary_menu ul:last-child li a,
+#primary_nav #primary_menu ul:last-child li button {
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: $dark-hover;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+#primary_nav #primary_menu ul:last-child li a:hover,
+#primary_nav #primary_menu ul:last-child li button:hover,
+#primary_nav #primary_menu ul:first-child li a:hover,
+#primary_nav #primary_menu ul:first-child li a.active {
+    color: $primary-color-light;
+}
+#primary_nav #primary_menu ul:last-child li button span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 14px;
+    color: $light;
+    border-radius: 50%;
+    background-color: $primary-color-light;
+    display: inline-block;
+    padding: 3px;
+}
+/* =========== Nav Bar Section Css End =========== */
+
+/* =========== Section Heading Css Start =========== */
+.section_heading h2 {
+    color: $text-color;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 46px;
+    margin-bottom: 36px;
+}
+/* =========== Section Heading Css End =========== */
+
+
+
+/* =========== Page Heading Section Css Start =========== */
+#page_heading {
+    height: 400px;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    z-index: 1;
+}
+#page_heading::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+#page_heading h1 {
+    color: $light;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+#page_heading .breadcrumb li,
+#page_heading .breadcrumb li::before,
+#page_heading .breadcrumb li a {
+    color: $light;
+    font-family: $body-font;
+    line-height: 28px;
+}
+
+/* =========== Page Heading Section Css End =========== */
+
+/* =========== Footer Section Css Start =========== */
+footer {
+    background-color: $text-color;
+}
+footer .footer_upper {
+    border-bottom: 1px solid $paragraph-color;
+    padding: 76px 0;
+}
+footer .footer_upper .widget-1 ul li a {
+    width: 40px;
+    height: 40px;
+    background-color: $light;
+    color: $paragraph-color;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.4s;
+}
+footer .footer_upper .widget-1 ul li a:hover {
+    background-color: $primary-color-light;
+    color: $light;
+}
+footer .footer_lower {
+    color: $light;
+    padding: 70px 0;
+}
+footer .footer_lower .widget h4 {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 22px;
+}
+footer .footer_lower .widget nav ul li a {
+    color: $light;
+    font-family: $body-font;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+footer .footer_lower .widget nav ul li a:hover {
+    color: $primary-color-light;
+}
+footer .footer_lower .widget nav ul li a::before {
+    content: "\f054";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    padding-right: 7px;
+}
+footer .footer_lower .widget table tr {
+    font-family: $body-font;
+    font-size: 16px;
+    line-height: 28px;
+}
+footer .footer_lower .widget table tr th {
+    padding-right: 18px;
+}
+
+footer .footer_lower .widget.widget-7,
+footer .footer_lower .widget.widget-7 a {
+    color: $light;
+    font-family: $body-font;
+    line-height: 28px;
+}
+footer .footer_lower .widget.widget-7 li {
+    margin-bottom: 5px;
+}
+footer .footer_lower .widget.widget-7 i {
+    font-size: 24px;
+    color: $primary-color-light;
+    padding-right: 10px;
+}
+footer .footer_lower .widget.widget-8 p {
+    font-family: $body-font;
+    margin-bottom: 23px;
+    line-height: 28px;
+}
+footer .footer_lower .widget.widget-8 form {
+    background-color: $light;
+}
+footer .footer_lower .widget.widget-8 input {
+    background: none;
+    border: none;
+    padding: 11px 10px;
+    line-height: 28px;
+    font-family: $body-font;
+}
+footer .footer_lower .widget.widget-8 button {
+    border: none;
+    color: $light;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    background: $primary-color-light;
+    padding: 8px 17px;
+}
+
+/* =========== Footer Section Css End =========== */
+
+/* =========== Copyright Section Css Start =========== */
+#copyright {
+    background-color: rgba(255, 2555, 255, 0.1);
+}
+#copyright p {
+    color: $light;
+    font-family: $body-font;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 21px 0;
+}
+#copyright p a {
+    color: $primary-color-light;
+}
+/* =========== Copyright Section Css End =========== */
+
+/* =========== Search Modal Section Css Start =========== */
+#search_modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transform: scale(0) rotate(50deg);
+    transform-origin: left;
+    transition: 0.5s;
+}
+#search_modal.show {
+    transform: scale(1) rotate(0deg);
+}
+#search_modal form {
+    border: 2px solid $primary-color-light;
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+#search_modal form input {
+    padding: 5px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: $light;
+}
+#search_modal form input::placeholder {
+    color: $light;
+}
+#search_modal form button {
+    background: none;
+    border: none;
+    color: $light;
+    font-size: 25px;
+}
+#search_modal #search_close_btn {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border-radius: 50%;
+    border: 1px solid $primary-color-light;
+    color: $primary-color-light;
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transition: 0.4s;
+}
+#search_modal #search_close_btn:hover {
+    background: $light;
+    border-color: $light;
+    transform: rotate(90deg);
+}
+/* =========== Search Modal Section Css End =========== */

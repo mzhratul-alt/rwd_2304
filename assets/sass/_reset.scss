@@ -1,0 +1,28 @@
+/* =========== Bootstrap Reset Css Start =========== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ol {
+    list-style-type: none;
+}
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+input,
+.form-control {
+    outline: 0;
+    box-shadow: none;
+}
+/* =========== Bootstrap Reset Css End =========== */
